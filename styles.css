@@ -1,0 +1,144 @@
+<! Begin stylesheet for Final_Page/home.html >
+
+  /* Fonts */
+
+@font-face {
+    font-family: Cambria;
+    src: url(fonts/Cambria.ttf);
+}
+
+	/* Body and Text Styles */
+
+body {
+	font-size: 13px;
+	font-family: Cambria, Times, serif;
+	color: white;
+	background-color: black;
+	background-image: url(images/bg.png); // Stock photo CC0 licensed, credits to Unsplash of Pexels.com
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center top;
+}
+
+header{
+  width: 550px;
+  margin: 50px 0px 0px 100px;
+  padding-bottom: 12px;
+}
+
+    header a {
+      font-size: 14px;
+      letter-spacing: 2px;
+      font-variant: small-caps;
+    }
+
+main {
+  background-color: rgba(81,113,118,0.4);
+  border-radius: 5px;
+  width: 500px;
+  overflow: auto;
+  margin: 0px 0px 0px 100px;
+  padding: 10px 20px 20px 20px;
+  box-shadow: 0px -20px 100px -30px #444;
+}
+
+    main img {
+      border-radius: 5px;
+    }
+
+    main img.staff {
+      border-radius: 0px;
+      width: 150px;
+      height: 183px;
+      margin: 0px 10px 10px 0px;
+      float: left;
+      box-shadow: 2px 2px 5px #222;
+    }
+
+    main img.home{
+      width: 180px;
+      height: 180px;
+      margin: 0px 10px 10px 0px;
+      float: left;
+    }
+
+    main p {
+      clear: left;
+      line-height: 1.3em;
+    }
+    main a {
+      font-weight: bold;
+    }
+
+footer {
+  width: 510px;
+  margin: 0px 0px 0px 100px;
+  padding-top: 12px;
+  text-align: right;
+}
+
+a {color: white; text-decoration: none;}
+a:visited {color: white}
+a:hover {color: #333}
+
+h1 {
+  font-size: 18px;
+  font-variant: small-caps;
+  font-style: italic;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-size: 14px;
+  font-variant: small-caps;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin: 0px;
+}
+
+table {
+  width: 50%;
+  border: collapse;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+    table tr {
+    }
+
+        table tr td {
+          padding: 10px;
+          margin: 10px;
+          vertical-align: top;
+        }
+
+        table tr td.extras {
+          text-align: center;
+        }
+
+  /* Javascript Slideshow Styles - http://www.menucool.com */
+
+  #sliderFrame, #sliderFrame div {
+      box-sizing: content-box;
+      border-radius: 5px;
+  }
+  #sliderFrame
+  {
+      width:500px;
+      margin:0 auto; /*center-aligned*/
+      border-radius: 5px;
+  }
+
+  #slider, #slider .sliderInner {
+      width:500px;height:180px;/* Must be the same size as the slider images */
+      border-radius:5px;
+  }
+
+  #slider {
+      background-color: black ;
+      position:relative;
+      margin:0 auto; /*center-aligned*/
+      transform: translate3d(0,0,0);
+      border-radius: 5px;
+      overflow: hidden;
+  }
